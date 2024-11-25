@@ -15,10 +15,10 @@ import { DatePicker, DateTimePicker, LocalizationProvider, pickersLayoutClasses 
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 
 const HeaderContainer = styled.nav`
+  border-radius: 15px 15px 0px 0px;
   min-height: 60px;
   height: fit-content;
   background-color: #ffff;
-  border-bottom: 2px solid #aaaaaa;
   color: black;
 
   display: flex;
