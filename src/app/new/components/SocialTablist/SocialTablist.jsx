@@ -4,61 +4,25 @@ import { SocialTablistContainer } from './styles'
 import InstagramIcon from '@mui/icons-material/Instagram';
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import { IconButton } from '@mui/material';
+import { TabIconButton } from '../Instagram/components/ProfileTablist/styles';
 
 const SocialTablist = () => {
   return (
     <SocialTablistContainer>
-        <IconButton
-            color='inherit'
-            sx={{
-                border: '1px solid #aaaaaa88', 
-                borderRadius: "10px",
-                fontSize: "1rem",
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "8%",
-                color: "black"
-            }}
-        >
+
+        <TabIconButton style={{backgroundColor: "#8b8b8b58"}}>
             <InstagramIcon/> <p>Instagram</p>
-        </IconButton>
-        <IconButton
-            color='inherit'
-            sx={{
-                border: '1px solid #aaaaaa88', 
-                borderRadius: "10px",
-                fontSize: "1rem",
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "8%",
-                color: "black"
-            }}
-        >
+        </TabIconButton>
+        
+        <TabIconButton>
             <InstagramIcon/> <p>Facebook</p>
-        </IconButton>
-        <IconButton
-            color='inherit'
-            sx={{
-                border: '1px solid #aaaaaa88', 
-                borderRadius: "10px",
-                fontSize: "1rem",
-                display: "flex",
-                flexDirection: "row",
-                justifyContent: "center",
-                alignItems: "center",
-                gap: "8%",
-                color: "black"
-            }}
-        >
+        </TabIconButton>
+        
+        <TabIconButton>
             <InstagramIcon/> <p>Youtube</p>
-        </IconButton>
-        <IconButton
-            color='inherit'
-        >
+        </TabIconButton>
+
+        <IconButton>
             <AddCircleIcon
             sx={{
                 width: "35px",

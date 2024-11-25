@@ -15,6 +15,8 @@ import { DatePicker, DateTimePicker, LocalizationProvider, pickersLayoutClasses 
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 
 const HeaderContainer = styled.nav`
+  position: sticky;
+  top: 0px;
   border-radius: 15px 15px 0px 0px;
   min-height: 60px;
   height: fit-content;

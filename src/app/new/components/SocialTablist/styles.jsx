@@ -10,4 +10,5 @@ export const SocialTablistContainer = styled.div`
     width: 100%;
     border-bottom: 2px solid #aaaaaa;
     background-color: #ffff;
+    border-top: 1px solid #aaaaaa62;
 `
