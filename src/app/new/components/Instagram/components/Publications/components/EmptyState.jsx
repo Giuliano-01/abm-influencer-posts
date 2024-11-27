@@ -3,7 +3,7 @@ import { Button } from '@mui/material';
 import { ButtonContainer, EmptyStateContainer } from './styles';
 import IconButton from '@mui/material/IconButton';
 
-const EmptyState = () => {
+const EmptyState = ({setOpenModal}) => {
 
     return (
         <EmptyStateContainer>
@@ -11,6 +11,7 @@ const EmptyState = () => {
             <IconButton
                 color='inherit'
                 sx={{border: '1px solid white'}}
+                onClick={()=>setOpenModal(true)}
             >
                 <CameraAltOutlinedIcon sx={{width: "70px",height: "70px"}} />
             </IconButton>
